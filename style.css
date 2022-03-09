@@ -65,6 +65,10 @@ body {
 }
 
 .main-session-write-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     background-color: #ECD6C4;
     width: 180px;
     height: 60px;
@@ -75,6 +79,16 @@ body {
     font-weight: 400;
     font-size: 24px;
     color: #2F2325
+}
+
+.github-logo {
+    width: 100px;
+    height: 40;
+}
+
+.github-icon {
+    width: 50px;
+    height: 20;
 }
 
 .main-session-write-button:hover {
