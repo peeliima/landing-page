@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #BE5D52 85.61%);
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #20008F  85.61%);
 }
 
 .header {
@@ -92,7 +92,7 @@ body {
 }
 
 .main-session-write-button:hover {
-    background-color: rgb(236, 214, 196, 0.53);
+    background-color: #20008F;
     cursor: pointer;
 }
 
@@ -132,6 +132,7 @@ body {
 
 .footer-image {
     height: 48px;
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
 }
